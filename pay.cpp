@@ -1,4 +1,3 @@
-#include "person.h"
 #include "person.cpp"
 #include <iostream>
 #include <fstream>
