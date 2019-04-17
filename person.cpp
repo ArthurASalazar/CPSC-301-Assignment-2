@@ -2,8 +2,14 @@
 #include <iostream>
 #include <string>
 using namespace std;
-Person::Person(){
 
+Person(string firstName, string lastName, float  payRate, float
+hoursWorked)
+{
+ firstName = fName;
+ lastName = lName;
+ payRate = rate;
+ hoursWorked = hours;
 }
 void Person::setLastName(string lName)
 {
